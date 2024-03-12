@@ -9,12 +9,13 @@ import Footer from '../components/Footer/Footer';
 
 function Root(): JSX.Element {
   return (
-    <>
+    <div style={{ width: '100vw' }}>
       <NavigationBar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
+
 }
 
 export default Root;

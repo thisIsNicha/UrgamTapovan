@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+.exp-link, .exp-link:hover     {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.exp-link span,
+.exp-link i {
+  position: relative;
+}
+.exp-link i {
+  margin-left: 0.5em;
+}
+.exp-link .exp-color {
+  width: 2em;
+  height: 2em;
+  border-radius: 2em;
+  background-color: var(--color);
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: -0.65em;
+}

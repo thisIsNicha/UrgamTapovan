@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
+import HomeSection from './HomeSection/HomeSection';
+import TopDestinations from './TopDestinations/TopDestinations'
 
 
 function Home() {
   return (
     <>
-        <h1>Home</h1>
+      <HomeSection />
+      <TopDestinations />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
