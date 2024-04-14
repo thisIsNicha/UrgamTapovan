@@ -1,0 +1,22 @@
+
+.collections-section {
+  padding: 20px; /* Padding around the entire collections section */
+}
+
+.collection-card {
+  margin-right: 20px; /* Spacing between the cards */
+  margin-left: 20px; /* Spacing between the cards */
+  margin-bottom: 20px; /* Spacing between the cards */
+}
+
+.collections-row {
+  padding-left: 5vw; /* Padding on the left of the row */
+  padding-right: 5vw; /* Padding on the right of the row */
+}
+
+.collections-heading {
+  font-family: 'Allison', sans-serif; /* Font for the heading */
+  font-size: 10em; /* Font size for the heading */
+  color: #FFD600; /* Color for the heading */
+  padding-top: 5vh; /* Padding on the top of the heading */
+}

@@ -15,7 +15,7 @@ function NavigationBar() {
           <Nav>
             <Nav.Link href="#deets">Book a HomeStay</Nav.Link>
             <Nav.Link href="#deets">Artistry</Nav.Link>
-            <Nav.Link href="#deets">Weaver's Handloom</Nav.Link>
+            <Nav.Link href="handloom">Weaver's Handloom</Nav.Link>
             <Nav.Link href="#deets">Tapovan</Nav.Link>
             <Nav.Link href="#deets">Urgam</Nav.Link>
             {/* <Nav.Link eventKey={2} href="#memes">

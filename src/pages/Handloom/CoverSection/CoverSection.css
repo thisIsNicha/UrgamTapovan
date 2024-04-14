@@ -1,0 +1,29 @@
+
+.cover-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Set your desired height */
+}
+
+.cover-container {
+  position: relative;
+  display: inline-block;
+  width: 80%; /* Adjust the width of the container */
+  height: 70vh; /* Set your desired height */
+  margin-left: 10%; /* Adjust the left margin */
+  margin-right: 10%; /* Adjust the right margin */
+  background-image: url('./../../../assets/weaver1.png'); /* Set the image as background */
+  background-size: cover; /* Adjust as needed */
+}
+
+
+.cover-text {
+  position: absolute;
+  top: 10vh; /* Adjust the vertical position of the text */
+  right: 5vw; /* Adjust the horizontal position of the text */
+  font-size: 7em; /* Adjust the font size */
+  color: white; /* Optional: Set the text color */
+}
+

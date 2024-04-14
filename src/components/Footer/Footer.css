@@ -1,0 +1,18 @@
+
+.footer-div {
+
+  background-size: cover;
+  padding-top: 40vh; /* Adjust as needed */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.social-icon {
+  font-size: 24px; /* Adjust the size as needed */
+  margin: 10px 0; /* Add margin to the top and bottom */
+}

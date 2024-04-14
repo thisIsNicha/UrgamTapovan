@@ -8,9 +8,9 @@ function TopDestinations() {
   // Sample array of destinations data
   const destinations = [
     { name: 'Destination 1', type: 'Type 1', image: cardImg1 },
-    { name: 'Destination 2', type: 'Type 2', image: 'https://via.placeholder.com/200' },
-    { name: 'Destination 3', type: 'Type 3', image: 'https://via.placeholder.com/200' },
-    { name: 'Destination 4', type: 'Type 3', image: 'https://via.placeholder.com/200' },
+    { name: 'Destination 2', type: 'Type 2', image: cardImg1 },
+    { name: 'Destination 3', type: 'Type 3', image: cardImg1  },
+    { name: 'Destination 4', type: 'Type 3', image:   cardImg1},
   ];
 
   return (

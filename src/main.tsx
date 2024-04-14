@@ -13,6 +13,7 @@ import './index.css'
 import Root from './routes/root'
 import NotFound from './pages/Error/NotFound';
 import Home from './pages/Home/Home';
+import HandLoom from './pages/Handloom/Handloom';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/handloom",
+        element: <HandLoom />,
+      }
       // {
       //   path: "/handloom",
       //   element: <HandLoom />,
