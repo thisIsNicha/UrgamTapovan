@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Overflow issue debug */
+
+/* * {
+  outline: 2px solid red !important;
+} */
+
+:root {
+  --white: #eee;
+  --black: #141414;
+  --color: #3333ff;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -33,6 +53,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  width: 100vw;
 }
 
 h1 {

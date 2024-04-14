@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap')
+;
+
+.welcome-text{
+    padding-left: 4vw;
+}
+
+
+  .welcome-to{
+    font-family: 'Allison', sans-serif;
+    font-size: calc(7em - 10px); /* 5em - 10px */
+    color: #f0e68c; /* Yellow color */
+  }
+
+  .Urg{
+    font-family: "DM Serif Display", serif;
+    font-size: calc(7em - 10px); /* 5em - 10px */
+    line-height: 0.8; /* Decrease line spacing */
+    color: #fff; /* Yellow color */
+  }
+  
+  .explore-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .downward-arrow {
+    margin-left: 10px;
+  }
+  
+  /* Set background image */
+  .home-main-div{
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height of the container to fill the viewport */
+  }
+  
