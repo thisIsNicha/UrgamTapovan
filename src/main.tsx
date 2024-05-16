@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: "/UrgamTapovan",
+  basename: "/UrgamTapovan/",
 });
 
 const rootElement = document.getElementById("root");
