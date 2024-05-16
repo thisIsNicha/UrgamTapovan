@@ -31,7 +31,9 @@ const router = createBrowserRouter([
       }
     ],
   },
-]);
+], {
+  basename: "/UrgamTapovan",
+});
 
 const rootElement = document.getElementById("root");
 if (rootElement) {
