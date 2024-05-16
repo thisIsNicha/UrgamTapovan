@@ -1,4 +1,3 @@
-import React from 'react';
 import HomeSection from './HomeSection/HomeSection';
 import TopDestinations from './TopDestinations/TopDestinations'
 

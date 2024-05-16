@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import gsap from 'gsap';
 import './Explore.css';
 
-const CustomLink = () => {
+const CustomLink: React.FC  = () => {
   useEffect(() => {
     // JavaScript logic
     let link = document.querySelector(".exp-link");
     let pink = document.querySelector(".exp-color");
+
+    if (!link || !pink) return;
 
     let hoverTL = gsap.timeline();
     hoverTL.pause();
@@ -34,10 +35,10 @@ const CustomLink = () => {
 
     // Cleanup function to remove event listeners
     return () => {
-      link.removeEventListener("mouseenter", () => {
+      link?.removeEventListener("mouseenter", () => {
         hoverTL.play();
       });
-      link.removeEventListener("mouseleave", () => {
+      link?.removeEventListener("mouseleave", () => {
         hoverTL.reverse();
       });
     };
@@ -48,7 +49,7 @@ const CustomLink = () => {
       <a className="exp-link" href="#" target="_blank">
         <div className="exp-color"></div>
         <span>READ MORE</span>
-        <i class="fa-solid fa-arrow-down"></i>
+        <i className="fa-solid fa-arrow-down"></i>
 
         {/* <FontAwesomeIcon icon="fa-solid fa-arrow-down" /> */}
       </a>

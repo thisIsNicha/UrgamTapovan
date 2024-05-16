@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import backgroundImg from './../../assets/bottom_banner_1.png';
 import './Footer.css'; // Importing CSS file for styling

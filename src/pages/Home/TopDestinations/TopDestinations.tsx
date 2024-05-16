@@ -1,5 +1,4 @@
-import React from 'react';
-import DestinationCard from './../../../components/DestinationCard/DestinationCard';
+import DestinationCard from '../../../components/DestinationCard/DestinationCard';
 
 import './TopDestinations.css';
 import cardImg1 from './../../../assets/card_img.png'
@@ -27,7 +26,7 @@ function TopDestinations() {
         </div>
       </div>
       <div className="row dest-row">
-        {destinations.map((destination, index) => (
+        {destinations.map(destination => (
           <div className="col-lg-3 col-md-6 px-5">
               <DestinationCard destination={destination} />
           </div>

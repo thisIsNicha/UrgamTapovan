@@ -1,7 +1,6 @@
-import React from 'react';
 import background from './../../../assets/BG-1.png'
 import './HomeSection.css'
-import ExploreButton from './../../../components/ExploreButton/Explore.jsx'
+import ExploreButton from '../../../components/ExploreButton/Explore.js'
 
 
 function HomeSection() {

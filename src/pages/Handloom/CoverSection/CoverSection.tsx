@@ -1,5 +1,4 @@
 
-import React from 'react';
 import './CoverSection.css'; // Import CSS file for styling
 
 import handloomImg from './../../../assets/weaver1.png';
