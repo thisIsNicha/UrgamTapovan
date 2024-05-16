@@ -5,11 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "help": "vite preview --help",
-    "bhelp": "vite build --help"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@coreui/react": "^4.11.1",
