@@ -29,14 +29,6 @@ const router = createBrowserRouter([
         path: "/handloom",
         element: <HandLoom />,
       }
-      // {
-      //   path: "/handloom",
-      //   element: <HandLoom />,
-      // },
-      // {
-      //   path: "/components",
-      //   element: <Components />,
-      // },
     ],
   },
 ]);
